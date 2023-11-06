@@ -40,11 +40,10 @@ div.container-formulario {
 
 div.container-tabla {
   display: block;
-  
   text-align: center;
   background-color: white;
   padding: 1em;
-  border-color: whitesmoke;
+  border-color: rgb(64, 21, 87);
   box-shadow: 26px 28px 15px -8px rgba(0, 0, 0, 0.15);
   border-radius: 0.7rem;
   margin: 2em 4em 4em 2em;
@@ -55,4 +54,39 @@ label {
   font-weight: bold;
 }
 
+.btn-cotizar{
+  background-color: rgb(64, 21, 87);
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.titulo-hist{
+  color: #fff;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+button:hover{
+  background-color: rgb(7, 130, 141);
+  color:#fff;
+}
 

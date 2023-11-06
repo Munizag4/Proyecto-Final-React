@@ -24,7 +24,7 @@ function Formulario() {
             <h2 className="subtitulo">Completa los datos solicitados</h2>
             <SelectProp />
             <SeleccionarUbicacion />
-            <SeleccionarMetros />        
+            <SeleccionarMetros />   
             <Cotizar />    
             <div>
             <label htmlFor="cotizacion">Valor de la cotizacion:</label>

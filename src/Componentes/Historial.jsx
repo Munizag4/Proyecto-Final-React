@@ -7,7 +7,7 @@ function Historial(){
         return(
             <>
             <div>
-                <h1 className="titulo">Historial de cotizaciones</h1>
+                <h1 className="titulo-hist">Historial de Cotizaciones</h1>
                 <Link to="/">
                     <button className="historial" >Volver </button>            
                 </Link> 

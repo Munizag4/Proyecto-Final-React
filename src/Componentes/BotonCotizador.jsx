@@ -15,7 +15,7 @@ function Cotizar() {
 
     const handleCotizar = () => {
         if (idPropiedad === null || idUbicacion === null || metros === null ) {
-            alert("Por favor, complete todos los campos.");
+            alert("Complete todos los campos");
             return;
         }
 
@@ -37,7 +37,7 @@ function Cotizar() {
     return (
         <>
         <div>
-            <button className="boton" onClick={handleCotizar}>Cotizar</button>            
+            <button className="btn-cotizar" onClick={handleCotizar}>Cotizar</button>            
         </div>
         </>
     );
