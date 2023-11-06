@@ -1,0 +1,58 @@
+#root {
+  margin: 0;
+  padding: 0;
+ }
+html {
+  background-color: rgb(126, 88, 161);
+  min-height: 100%;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+}
+
+h1.titulo {
+  color: #fff;
+  font-size: 62, 5%;
+  margin-left: 9em;
+}
+
+button.historial {
+  height: 3em;
+  justify-content: right;
+  margin: 2em 0.75em 2em 15em;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+div.container-formulario {
+  display: block;
+  text-align: center;
+  background-color: white;
+  padding: 1em;
+  border-color: whitesmoke;
+  box-shadow: 26px 28px 15px -8px rgba(0, 0, 0, 0.15);
+  border-radius: 0.7rem;
+  margin: 2em 4em 4em 2em;
+}
+
+div.container-tabla {
+  display: block;
+  
+  text-align: center;
+  background-color: white;
+  padding: 1em;
+  border-color: whitesmoke;
+  box-shadow: 26px 28px 15px -8px rgba(0, 0, 0, 0.15);
+  border-radius: 0.7rem;
+  margin: 2em 4em 4em 2em;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
